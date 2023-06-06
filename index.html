@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Le labo de Brian</title>
+  </head>
+  <body>
+    <nav
+      class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder" href="#"
+          >Bienvenue</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item pe-4">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link" href="#experiences">Mes expériences</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="btn btn-order rounded-1 mt-1" href="#experience-form"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner d-flex justify-content-center align-items-center pt-5">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/img/PhotoBrian.jpg" alt="Photo de profil Brian" class="img-fluide">
+          </div>
+          <div class="col-md-6 banner-desc lh-lg">
+            <h1 class="text-capitalize py-3 redressed">
+              Le laboratoire de Brian <br />
+              votre futur concepteur ?
+            </h1>
+            <p>
+              <button class="btn btn-outline-warning btn-lg montserrat">
+                <a href="/assets/img/CVBrianAlternance.pdf" target="_blank" class="btn text-light">Mon CV</a>
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="available montserrat py-5">
+      <div class="container">
+        <div class="row">
+          <div class="card mb-3 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  src="assets/img/trombinoscope.png"
+                  class="img-fluid fixed-size-image"
+                  alt="..."
+                />
+              </div>
+              <div id="experiences"class="col-md-6">
+                <div class="card-body px-0">
+                  <h2 class="card-title mb-4">Expérience numéro 1</h2>
+                  <p class="card-text lead lora">
+                    Dans les profondeurs mystérieuses de mon laboratoire de développement web,
+                    j'ai donné naissance à mon premier chef-d'œuvre : un trombinoscope ingénieux et interactif.
+                    Tissant avec habileté les fils d'HTML, CSS, JavaScript et PHP, j'ai façonné une mosaïque de
+                    visages qui, tels des étoiles dans la galaxie du numérique, scintillent à chaque clic et interaction.
+                    Mon parcours créatif, désormais gravé dans les méandres du code, m'invite à explorer toujours plus loin les contrées de l'innovation.
+                  </p>
+                  <p class="card-text">
+                    <a href="https://wildcodeschool.github.io/2023-03-remote-fr-php-trombinoscope/" target="_blank" class="link-warning"
+                      >Découvrir l'expérience</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card my-5 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card-body px-0">
+                  <h2 class="card-title mb-4">Expérience numéro 2</h2>
+                  <p class="card-text lead lora">
+                    Au cœur de mon laboratoire de développement web, j'ai métamorphosé un univers aquatique en redessinant entièrement
+                    le site d'un producteur passionné d'huîtres et de moules. Maniant avec dextérité le framework TWIG, j'ai fusionné
+                    les langages PHP, HTML et CSS, tout en parsemant délicatement des touches de JavaScript pour insuffler vie et dynamisme 
+                    à cet écosystème numérique.
+                    Ainsi, j'ai plongé les visiteurs dans un océan d'exploration où les trésors marins sont sublimés par
+                    la magie de la technologie.
+                  </p>
+                  <p class="card-text">
+                    <a href="https://huitres-tafforet.remote-fr-1.wilders.dev/" target="_blank" class="link-warning"
+                      >Découvrir l'expérience</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="assets/img/Carousel/refontehuitre.png"
+                        class="d-block w-100 fixed-size-image"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="assets/img/Carousel/recipe.png"
+                        class="d-block w-100 fixed-size-image"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card mb-3 border-0 rounded-0">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="assets/img/travaux.png" class="img-fluid fixed-size-image" alt="..." />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body px-0">
+                  <h2 class="card-title mb-4">Expérience numéro 3</h2>
+                  <p class="card-text text-center mt-5 lora">
+                    Création d'une plateforme vidéo OTT (Freemium) <br>
+                    En cour d'expérimentation ! 
+                  </p>
+                  <div class="d-flex justify-content-center">
+                    <div class="spinner-border" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="cc-carousel montserrat bg-dark text-light text-center py-5"
+    >
+      <div class="container">
+        <div class="row">
+          <h1 class="text-uppercase">Les expériences interdites</h1>
+          <div class="col pb-4 lora">
+            Dans le laboratoire du développement web, je mène des expériences
+            audacieuses pour repousser les limites de la technologie. Ici, la
+            science et la créativité fusionnent pour donner vie à des projets
+            innovants et captivants. Plongez dans l'univers mystérieux de mon
+            laboratoire où les codes sont ma matière première et les écrans, mes
+            béchers.
+          </div>
+        </div>
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/img/Carousel/dev1.png"
+                class="d-block w-100 carousel-image"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Le gout de la légèreté</h5>
+                <p class="lora">
+                  Découvrez les secrets cachés du développement web alors que
+                  nous concoctons le mélange parfait de code et de design dans
+                  notre laboratoire mystérieux.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/Carousel/dev2.png"
+                class="d-block w-100 carousel-image"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Un décors qui facilite la production</h5>
+                <p class="lora">
+                  L'alchimie du code : transformer les idées en réalité.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/Carousel/dev3.png"
+                class="d-block w-100 carousel-image"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block ">
+                <h3>Un environnement calme et décontractant</h3>
+                <p class="lora">
+                  Le réacteur de code : alimenter le web avec des technologies de pointe.
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="py-5 d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <h2 class="text-center mb-4">Compétences techniques</h2>
+            <div class="row">
+              <div class="col-sm-6">
+                <ul class="list-unstyled text-center mt-4">
+                  <li><i class="fab fa-html5"></i> HTML</li>
+                  <li><i class="fab fa-css3-alt"></i> CSS</li>
+                  <li><i class="fab fa-php"></i> PHP</li>
+                  <li><i class="fab fa-js-square"></i> JAVASCRIPT</li>
+                  <li><i class="fab fa-symfony"></i> SYMFONY</li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="list-unstyled text-center mt-4">
+                  <li><i class="fab fa-git-square"></i> GIT</li>
+                  <li><i class="fas fa-database"></i> SQL</li>
+                  <li><i class="fab fa-bootstrap"></i> BOOTSTRAP</li>
+                  <li><i class="fab fa-figma"></i> FIGMA</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="order-form py-5 ">
+      <div class="container" id="experience-form">
+        <div class="row justify-content-center my-5">
+          <div class="col-md-8">
+            <h2 class="montserrat text-center text-light mb-4">
+              Demande de contact
+            </h2>
+            <ul class="list-unstyled text-center mt-4 text-white">
+              <li><a href="mailto:Brian.v87@hotmail.fr" lang="fr" class="text-white">E-mail</a></li>
+              <li><a href="tel:0778269599" class="text-white">07 78 26 95 99</a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cc-footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 col-sm">
+            <h6 class="redressed ps-3 fs-5">Liens utiles</h6>
+            <nav class="nav flex-column">
+              <a
+                class="nav-link py-1 montserrat fs-6 text-secondary active"
+                aria-current="page"
+                href="https://github.com/BrianV87" target="_blank"
+                >GitHub</a
+              >
+              <a class="nav-link py-1 montserrat fs-6 text-secondary" href="https://www.linkedin.com/in/brian-ventura-9798061a8/" target="_blank"
+                >Linkedin</a
+              >
+              <a class="nav-link py-1 montserrat fs-6 text-secondary" href="https://twitter.com/_Brayzo" target="_blank"
+                >Twitter</a
+              >
+            </nav>
+          </div>
+          <div class="col-12 text-center py-4 text-muted">
+            &copy; Le labo de Brian
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            | Copyright
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
