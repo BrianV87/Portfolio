@@ -88,3 +88,42 @@ body {
 .portrait {
 	border-radius: 10px;
 }
+
+.green-text {
+	color: #28a745;
+	font-weight: bold;
+}
+
+/* Nav Bar */
+.navbar-toggler {
+	border: none;
+	background: transparent !important;
+}
+
+.navbar-toggler .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+	background: #FFFFFF;
+}
+
+.navbar-toggler .icon-bar+.icon-bar {
+	margin-top: 4px;
+}
+
+.navbar-toggler:not(.collapsed) .top-bar {
+	transform: rotate(45deg);
+	position: relative;
+	top: 6px;
+}
+
+.navbar-toggler:not(.collapsed) .middle-bar {
+	opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) .bottom-bar {
+	transform: rotate(-45deg);
+	position: relative;
+	bottom: 6px;
+}
